@@ -59,6 +59,5 @@ module Webrat
       :selenium,
       :simulate, :automate,
       :field_named
-
   end
 end
