@@ -144,7 +144,7 @@ end
 
 namespace :spec do
   desc "Run the integration specs"
-  task :integration => ["integration:rails", "integration:merb", "integration:sinatra"]
+  task :integration => ["integration:rails", "integration:merb", "integration:sinatra", "integration:rack"]
 
   namespace :integration do
     desc "Run the Rails integration specs"
